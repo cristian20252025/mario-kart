@@ -1,36 +1,6 @@
 body {
-    background-color: #000000;
+    background-color: #ff0101;
     color: rgb(254, 254, 254);
-    
-}
-
-.card {
-    background-color: #1b263b;
-    border: none;
-    border-radius: 15px;
-    color: white;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: scale(1.03);
-    box-shadow: 0px 0px 10px #64ffda;
-}
-
-.stat-bar {
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.stat-fill {
-    height: 10px;
-    background-color: #00d1b2;
-}
-
-.boton {
-    width: 200px;
     
 }
 
@@ -38,4 +8,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#encabezado {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boton{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0.2;
+    align-self: center;
+    
 }
