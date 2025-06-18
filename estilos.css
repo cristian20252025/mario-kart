@@ -18,16 +18,16 @@ body {
 }
 
 #contenido {
-    position: relative; /* Establece un contexto de posicionamiento */
+    position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .video-container {
-    position: relative; /* Permite posicionar elementos absolutos dentro */
-    width: 100%; /* Ajusta el ancho según sea necesario */
-    max-width: 600px; /* Ancho máximo del video */
+    position: relative; 
+    width: 100%; 
+    max-width: 600px;
 }
 
 .video-container video {
@@ -35,27 +35,26 @@ body {
     height: auto;
 }
 
-/* Estilos para el botón circular */
 .play-button {
-    position: absolute; /* Se posiciona respecto al contenedor padre */
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Alinea el centro del botón con el centro del contenedor */
-    z-index: 1; /* Asegura que el botón esté encima del video */
-    width: 60px; /* Tamaño del botón */
-    height: 60px; /* Tamaño del botón */
-    border-radius: 50%; /* Hace el botón circular */
-    background-color: #fff; /* Color de fondo */
-    border: none; /* Quita el borde */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    font-size: 24px; /* Tamaño del icono */
-    color: #000; /* Color del icono */
-    display: flex; /* Para centrar el contenido del botón */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 24px; 
+    color: #000; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .play-button:hover {
-    background-color: #f0f0f0; /* Cambio de color al hover */
+    background-color: #f0f0f0; 
 }
